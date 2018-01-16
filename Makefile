@@ -1,9 +1,9 @@
 
 cc = csc
-
+util = Util/*
 
 all : 
-	$(cc) Program.cs 
+	$(cc) Program.cs $(util)
 
 clean :
 	rm -rf *.exe
