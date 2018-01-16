@@ -1,0 +1,80 @@
+
+using System;
+
+namespace CardSimulator.Gems
+{
+    public static class Cards
+    {
+        /*public static Card[] DeckOne = new [] {
+                                              };
+        public static Card[] DeckTwo = new [] {
+                                              };*/
+        public static Card[] DeckThree = 
+            new [] { new Card( 4, Gem.Amethyst, new [] { Tuple.Create( 7, Gem.Ruby ) } )
+                   , new Card( 4, Gem.Ruby, new [] { Tuple.Create( 7, Gem.Emerald ) } )
+                   , new Card( 4, Gem.Diamond, new [] { Tuple.Create( 3, Gem.Diamond )
+                                                      , Tuple.Create( 3, Gem.Ruby )
+                                                      , Tuple.Create( 6, Gem.Amethyst )
+                                                      } )
+                   , new Card( 4, Gem.Sapphire, new [] { Tuple.Create( 6, Gem.Diamond )
+                                                       , Tuple.Create( 3, Gem.Sapphire )
+                                                       , Tuple.Create( 3, Gem.Amethyst )
+                                                       } )
+                   , new Card( 5, Gem.Amethyst, new [] { Tuple.Create( 7, Gem.Ruby )
+                                                       , Tuple.Create( 3, Gem.Amethyst )
+                                                       } )
+                   , new Card( 5, Gem.Ruby, new [] { Tuple.Create( 7, Gem.Emerald )
+                                                   , Tuple.Create( 3, Gem.Ruby )
+                                                   } )
+                   , new Card( 5, Gem.Emerald, new [] { Tuple.Create( 7, Gem.Sapphire )
+                                                      , Tuple.Create( 3, Gem.Emerald ) 
+                                                      } )
+                   , new Card( 4, Gem.Ruby, new [] { Tuple.Create( 3, Gem.Sapphire )
+                                                   , Tuple.Create( 6, Gem.Emerald )
+                                                   , Tuple.Create( 3, Gem.Ruby )
+                                                   } )
+                   , new Card( 3, Gem.Ruby, new [] { Tuple.Create( 3, Gem.Sapphire )
+                                                   , Tuple.Create( 3, Gem.Emerald )
+                                                   , Tuple.Create( 5, Gem.Ruby )
+                                                   , Tuple.Create( 3, Gem.Amethyst )
+                                                   } )
+                   , new Card( 5, Gem.Diamond, new [] { Tuple.Create( 3, Gem.Diamond )
+                                                      , Tuple.Create( 7, Gem.Amethyst )
+                                                      } )
+                    , new Card( 3, Gem.Amethyst, new [] { Tuple.Create( 3, Gem.Diamond )
+                                                        , Tuple.Create( 3, Gem.Sapphire )
+                                                        , Tuple.Create( 5, Gem.Emerald )
+                                                        , Tuple.Create( 3, Gem.Ruby )
+                                                        } )
+                   , new Card( 4, Gem.Emerald, new [] { Tuple.Create( 3, Gem.Diamond )
+                                                      , Tuple.Create( 6, Gem.Sapphire )
+                                                      , Tuple.Create( 3, Gem.Emerald )
+                                                      } ) 
+                   , new Card( 3, Gem.Emerald, new [] { Tuple.Create( 5, Gem.Diamond )
+                                                      , Tuple.Create( 3, Gem.Sapphire )
+                                                      , Tuple.Create( 3, Gem.Ruby )
+                                                      , Tuple.Create( 3, Gem.Amethyst )
+                                                      } )
+                   , new Card( 4, Gem.Amethyst, new [] { Tuple.Create( 3, Gem.Emerald )
+                                                       , Tuple.Create( 6, Gem.Ruby )
+                                                       , Tuple.Create( 3, Gem.Amethyst )
+                                                       } )
+                   , new Card( 3, Gem.Sapphire, new [] { Tuple.Create( 3, Gem.Diamond )
+                                                       , Tuple.Create( 3, Gem.Emerald )
+                                                       , Tuple.Create( 3, Gem.Ruby )
+                                                       , Tuple.Create( 5, Gem.Amethyst )
+                                                       } )
+                   , new Card( 4, Gem.Diamond, new [] { Tuple.Create( 7, Gem.Amethyst ) } )
+                   , new Card( 5, Gem.Sapphire, new [] { Tuple.Create( 7, Gem.Diamond )
+                                                       , Tuple.Create( 3, Gem.Sapphire )
+                                                       } )
+                   , new Card( 3, Gem.Ruby, new [] { Tuple.Create( 3, Gem.Diamond )
+                                                   , Tuple.Create( 5, Gem.Sapphire )
+                                                   , Tuple.Create( 3, Gem.Emerald )
+                                                   , Tuple.Create( 3, Gem.Amethyst )
+                                                   } )
+                   , new Card( 4, Gem.Emerald, new [] { Tuple.Create( 7, Gem.Sapphire ) } )
+                   , new Card( 4, Gem.Sapphire, new [] { Tuple.Create( 7, Gem.Diamond ) } )
+                   };
+    }
+}
