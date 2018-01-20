@@ -3,8 +3,45 @@ using System;
 
 namespace CardSimulator.Gems
 {
-    public static class Cards
+    public static class Initial
     {
+        public static Bonus[] Bonuses = new [] {
+            new Bonus( 3, Tuple.Create( 3, Gem.Amethyst ), 
+                          Tuple.Create( 3, Gem.Sapphire ),
+                          Tuple.Create( 3, Gem.Diamond ) ),
+
+            new Bonus( 3, Tuple.Create( 3, Gem.Amethyst ), 
+                          Tuple.Create( 3, Gem.Ruby ),
+                          Tuple.Create( 3, Gem.Diamond ) ),
+
+            new Bonus( 3, Tuple.Create( 3, Gem.Emerald ), 
+                          Tuple.Create( 3, Gem.Sapphire ),
+                          Tuple.Create( 3, Gem.Ruby ) ),
+
+            new Bonus( 3, Tuple.Create( 3, Gem.Amethyst ), 
+                          Tuple.Create( 3, Gem.Ruby ),
+                          Tuple.Create( 3, Gem.Emerald ) ),
+
+            new Bonus( 3, Tuple.Create( 3, Gem.Emerald ), 
+                          Tuple.Create( 3, Gem.Sapphire ),
+                          Tuple.Create( 3, Gem.Diamond ) ),
+
+            new Bonus( 3, Tuple.Create( 4, Gem.Sapphire ), 
+                          Tuple.Create( 4, Gem.Diamond ) ),
+
+            new Bonus( 3, Tuple.Create( 4, Gem.Amethyst ), 
+                          Tuple.Create( 4, Gem.Diamond ) ),
+
+            new Bonus( 3, Tuple.Create( 4, Gem.Amethyst ), 
+                          Tuple.Create( 4, Gem.Ruby ) ),
+
+            new Bonus( 3, Tuple.Create( 4, Gem.Ruby ), 
+                          Tuple.Create( 4, Gem.Emerald ) ),
+
+            new Bonus( 3, Tuple.Create( 4, Gem.Sapphire ), 
+                          Tuple.Create( 4, Gem.Emerald ) ),
+        };
+
         public static Card[] DeckOne = 
         new [] { new Card( 0, Gem.Diamond, new [] { Tuple.Create( 2, Gem.Sapphire )
                                                   , Tuple.Create( 2, Gem.Emerald )
